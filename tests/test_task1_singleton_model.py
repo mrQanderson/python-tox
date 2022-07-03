@@ -4,7 +4,7 @@
 
 import pytest
 
-from .company_model import AlexSingleton
+from src.company.company_model import AlexSingleton
 
 
 class TestAlexSingleton:

@@ -1,5 +1,5 @@
 import pytest
-from .company_model import Company, AlexSingleton
+from src.company.company_model import Company, AlexSingleton
 
 
 @pytest.fixture(name="alex_engineer", scope="session")
